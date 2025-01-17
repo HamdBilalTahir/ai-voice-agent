@@ -16,11 +16,11 @@ import os
 load_dotenv()
 
 
-print("\nopenai.api_key =====",openai.api_key)
+print("\nopenai.api_key ===== ",openai.api_key)
 
 # Initialize TTS
 
-print("\nTTS Models =====",TTS().list_models())
+print("\nTTS Models ===== ",TTS().list_models())
 
 tts_model = TTS("tts_models/multilingual/multi-dataset/xtts_v2")
 
