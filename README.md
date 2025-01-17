@@ -43,3 +43,13 @@ To set up the project, follow these steps:
 ## Project Overview
 
 This project is an AI Voice Agent designed to perform various tasks. Ensure you have all dependencies installed and the virtual environment activated before running the project.
+
+## Running the Application
+
+To run the application, use the following command:
+
+```bash
+uvicorn ai_voice_agent:app --reload
+```
+
+This command will start the application with automatic reloading enabled, allowing you to see changes without restarting the server manually.
