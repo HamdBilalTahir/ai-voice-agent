@@ -3,17 +3,18 @@ from fastapi.responses import StreamingResponse
 from dotenv import load_dotenv
 import openai
 
+# Load environment variables from .env
+load_dotenv()
+
+# Set OpenAI API key from environment variable
+import os
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 from TTS.api import TTS
 import io
 
 app = FastAPI()
 
-# Set OpenAI API key from environment variable
-import os
-
-# Load environment variables from .env
-load_dotenv()
 
 
 print("\nopenai.api_key =====",openai.api_key)
