@@ -4,3 +4,5 @@ openai
 TTS
 python-multipart
 python-dotenv
+scipy
+numpy
